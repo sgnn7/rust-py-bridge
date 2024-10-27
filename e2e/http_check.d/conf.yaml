@@ -1,0 +1,8 @@
+init_config:
+
+instances:
+  - name: Example website
+    url: https://example.com/
+
+  - name: Example website (staging)
+    url: http://staging.example.com/

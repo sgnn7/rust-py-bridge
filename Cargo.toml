@@ -1,0 +1,10 @@
+[package]
+name = "rust-py-bridge"
+version = "0.1.0"
+edition = '2021'
+authors = ["Srdjan Grubor"]
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+colored = "2"
+pyo3 = { version = "0.22.5", features = ["auto-initialize"] }
